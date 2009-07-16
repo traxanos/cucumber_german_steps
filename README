@@ -1,0 +1,30 @@
+Cucumber Steps for German
+=========================
+
+Dieses Archiv stellt eine Sammlung von "Cucumber Steps" bereit für deutsche Cucumber Tests
+
+Todo
+====
+
+Es sind noch nicht alle "Webrats Steps" übersetzt
+
+
+Installation
+============
+Kopiere alle Steps in deine "step_definitions"
+
+In der env.rb wird für einige Steps Mock SUpport benötigt
+
+# require "spec/mocks"
+# 
+# Before do
+#   $rspec_mocks ||= Spec::Mocks::Space.new
+# end
+# 
+# After do
+#   begin
+#     $rspec_mocks.verify_all
+#   ensure
+#     $rspec_mocks.reset_all
+#   end
+# end
